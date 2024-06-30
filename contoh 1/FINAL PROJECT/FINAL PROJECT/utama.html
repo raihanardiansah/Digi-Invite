@@ -356,12 +356,12 @@
     var playPauseButton = document.getElementById("playPauseIcon");
 
     function togglePlayPause() {
-      if (audio.play) {
-        audio.pause();
-        playPauseButton.className = "bi bi-play-circle";
-      } else {
+      if (audio.paused) {
         audio.play();
         playPauseButton.className = "bi bi-pause-circle";
+      } else {
+        audio.pause();
+        playPauseButton.className = "bi bi-play-circle";
       }
     }
   </script>
