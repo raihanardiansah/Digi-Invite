@@ -2,7 +2,6 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: beige;
-    height: 2000px;
 }
 .main-color {
     background-color:#927a5e !important;
@@ -43,10 +42,8 @@ body {
 .home  {
     background-color:#2b4f70;
 }
-.content-home2 {
+.content-home {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     color:white;
 }
@@ -62,10 +59,7 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
-.img-home{
-    margin-left: 20px;
 
-}
 .home-links:hover{
     background-color: beige;
     color: #927a5e; 
@@ -242,4 +236,24 @@ body {
     color: beige;
     margin-top: 3rem;
     
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+      font-size: 80%;
+    }
+}
+  /* Tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 70%;
+    }
+}
+  /* Mobile */
+  @media (max-width: 576px) {
+    html {
+      font-size: 65%;
+    }
 }
