@@ -1,7 +1,6 @@
 /* Body */
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
     background: beige;
     height: 2000px;
 }
@@ -45,7 +44,6 @@ body {
     background-color:#2b4f70;
 }
 .content-home2 {
-    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -77,13 +75,16 @@ body {
 }
 
 /*About Us*/
+.about p {
+    text-align: center;
+}
+
 .about-us-container {
     width: 100%;
     height: 80vh;
 }
 .about-us {
     width: 100%;
-    height: 320px;
     background-color: beige;
     margin-top: 140px;
 
@@ -102,6 +103,7 @@ body {
     color: #2b4f70;
     margin: 10px 0px;
     margin-bottom: 34px;
+    text-align: center;
 
 }
 .para-about {
@@ -134,8 +136,8 @@ body {
 /*Fitur*/
 .fitur {
     width: 100%;
-    height: 320px;
-    margin-top: 25rem;
+    /* height: 320px; */
+    margin-top: 5rem;
     text-align: center;
 }
 .heading-fitur, .heading-katalog, .heading-pricing {
@@ -150,9 +152,11 @@ body {
 .fitur .card{
     margin: auto;
     transition: 1s;
+    padding: 1rem;
+    min-height: 11rem;
 }
 .fitur .card:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
     box-shadow: 2px;;
 
 }
@@ -164,7 +168,7 @@ body {
 .fitur .card .card-text{
     font-size: 12px;
 }
-.fitur, .katalog .row {
+.fitur .row {
     display: flex;
     flex-wrap: wrap;
     margin-top: 3rem;
@@ -173,17 +177,30 @@ body {
 /*Katalog*/
 .katalog {
     width: 100%;
-    height: 320px;
-    margin-top: 25rem;
+    margin-top: 5rem;
     text-align: center;
 }
 .katalog .card:hover{
-    transform: scale(1.3);
-    box-shadow: 2px;;
+    transform: scale(1.1);
+    box-shadow: 2px;
 }
 .katalog .card{
     margin: auto;
     transition: 1s;
+    min-height: 30rem;
+}
+
+.katalog .bungkus {
+    min-height: 25rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.katalog .card-img-top {
+    height: auto;
+    width: 100%;
+    display: block;
 }
 
 .katalog .btn{
@@ -193,13 +210,16 @@ body {
  /*Pricing*/
 .pricing {
     width: 100%;
-    height: 320px;
-    margin-top: 25rem;
+    margin-top: 5rem;
     text-align: center;
 }
 .pricing .card-header  {
     background-color:#2b4f70;
     color: #ddd;
+}
+
+.pricing .card {
+    min-height: 33rem;
 }
 
 .order{
@@ -220,6 +240,6 @@ body {
     text-align: center;
     background: #927a5e;
     color: beige;
-    margin-top: 25rem;
+    margin-top: 3rem;
     
 }
