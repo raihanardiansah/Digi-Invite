@@ -267,4 +267,7 @@ body {
     html {
       font-size: 70%;
     }
+    .fitur .card{
+        min-height: 12rem;
+    }
 }
