@@ -220,13 +220,14 @@ body {
 
 
 .message .mycard {
+  margin-top: 3rem;
   padding: 1.5rem;
   background-color: #3b1f1f;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
 }
 
-.message h1 {
+.message h2 {
   font-family: 'Crimson Text';
   color: var(--gold);
 }
@@ -305,6 +306,7 @@ textarea {
   font-size: 0.8rem;
 }
 
+/* Audio */
 .audio-icon-wrapper {
   width: 3rem;
   height: 3rem;
