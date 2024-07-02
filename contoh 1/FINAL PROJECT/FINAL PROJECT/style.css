@@ -333,7 +333,7 @@ textarea {
 /* Laptop */
 @media (max-width: 992px) {
   html {
-    font-size: 80%;
+    font-size: 85%;
   }
   .simply-countdown>.simply-section{
     padding: 36px;
@@ -343,7 +343,7 @@ textarea {
 /* Tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 70%;
+    font-size: 75%;
   }
 
   .hero img {
@@ -373,10 +373,10 @@ textarea {
 /* Mobile */
 @media (max-width: 576px) {
   html {
-    font-size: 65%;
+    font-size: 70%;
   }
   h1{
-    font-size: 65%;
+    font-size: 70%;
  }
   .simply-countdown>.simply-section {
     padding: 25px;
