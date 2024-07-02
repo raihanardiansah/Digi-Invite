@@ -1,6 +1,11 @@
+html, body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
 /* Body */
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     background: beige;
 }
 .main-color {
@@ -249,6 +254,12 @@ body {
   @media (max-width: 768px) {
     html {
       font-size: 70%;
+    }
+    .katalog .card{
+        margin: 1.8rem;
+    }
+    .fitur .card{
+        min-height: 15rem;
     }
 }
   /* Mobile */
