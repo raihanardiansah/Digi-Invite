@@ -46,9 +46,6 @@ body {
 /*Home*/
 .home  {
     background-color:#2b4f70;
-}
-
-.container {
     min-height: 100vh;
     max-height: 100vh;
 }
