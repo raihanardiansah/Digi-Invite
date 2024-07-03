@@ -268,7 +268,7 @@ body {
   /* Mobile */
   @media (max-width: 576px) {
     html {
-      font-size: 75%;
+      font-size: 80%;
     }
     .fitur .card{
         min-height: 12rem;
