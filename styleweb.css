@@ -46,7 +46,9 @@ body {
 /*Home*/
 .home  {
     background-color:#2b4f70;
+    min-height: 100vh;
 }
+
 .content-home {
     width: 100%;
     align-items: center;
@@ -186,7 +188,7 @@ body {
 .katalog .card{
     margin: auto;
     transition: 1s;
-    min-height: 30rem;
+    min-height: 35rem;
 }
 
 .katalog .bungkus {
@@ -261,11 +263,12 @@ body {
     .fitur .card{
         min-height: 15rem;
     }
+      
 }
   /* Mobile */
   @media (max-width: 576px) {
     html {
-      font-size: 70%;
+      font-size: 80%;
     }
     .fitur .card{
         min-height: 12rem;
